@@ -14,6 +14,7 @@ import gradio as gr
 import joblib
 import warnings
 
+
 warnings.filterwarnings("ignore")
 
 best_model= joblib.load("models/RF.joblib")
